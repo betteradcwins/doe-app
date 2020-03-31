@@ -11,6 +11,6 @@
     * Create a new donator
 * [] GET /logs
     * List all donators
-* [] Setup Client
-* [] Create Form to add a new donator
+* [x] Setup Client
+* [x] Create Form to add a new donator
 * [] List the lastest donators
