@@ -121,7 +121,7 @@ main .blood {
 }
 
 main .donor p {
-    margin-top: 24px;
+    margin: 24px 0 64px;
     font-size: 14px;
 }
 

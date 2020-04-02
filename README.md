@@ -6,11 +6,11 @@
     * [x] Setup Not Found and Error Middlewares
 * [x] Model DB
   * What data will be store?
-<!-- * [x] Setup Mongoose Model(s) -->
-* [x] POST /donor
+* [x] Setup Mongoose Model(s)
+* [x] POST /
     * Create a new donator
 * [x] GET /donors
     * List all donators
 * [x] Setup Client
 * [x] Create Form to add a new donator
-* [] List the lastest donators
+* [x] List the lastest donators

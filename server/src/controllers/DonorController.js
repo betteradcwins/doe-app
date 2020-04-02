@@ -5,16 +5,15 @@ module.exports = {
         const bloodTypes = ['O-', 'O+', 'AB-', 'AB+', 'A-', 'A+', 'B-', 'B+']
         const { name, email, blood } = req.body
 
-        if (!bloodTypes.includes(blood)) return res.status(406)
+        if (!bloodTypes.includes(blood)) return res.status(406).redirect('/')
 
         const donor = await Donor.create({ name, email, blood })
 
-        return res.status(201).json(donor)
+        return res.redirect('/')
     },
 
-    async list(req, res) {
-        const donors = await Donor.find()
-
-        return res.status(200).json(donors)
+    list(req, res) {
+        Donor.find()
+            .then(donors => res.json(donors))
     }
 }
