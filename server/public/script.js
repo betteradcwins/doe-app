@@ -9,9 +9,7 @@ fetch('/donors')
     .then(data => {
         const donors = document.querySelector('.donors')
 
-        Array.from(data).reverse().forEach((donor, i) => {
-            if (i >= 8) return;
-
+        Array.from(data).forEach((donor, i) => {
             const p = createElement('p', '', donor.name)
             const blood = createElement('div', 'blood', donor.blood)
             const div = createElement('div', 'donor')

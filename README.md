@@ -1,3 +1,20 @@
+# Aplicação desenvolvida durante a maratonaDev da [Rockseat](https://rocketseat.com.br/)
+
+Aplicação tem diferenças da desenvolvida pela rockseat, como o banco de dados e a forma de manipulação da DOM.
+A aplicação consiste de um formulário para cadastro de doares de sangue e uma listagem dos últimos cadastrados.
+
+## Para executar a aplicação
+
+git clone https://github.com/betteradcwins/doe-app.git
+
+cd doe-app/server
+
+*É necessário configurar as várias de ambiente*
+
+yarn install
+
+yarn dev 
+
 ### TODO
 
 * [x] Setup Server

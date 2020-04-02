@@ -12,8 +12,9 @@ module.exports = {
         return res.redirect('/')
     },
 
-    list(req, res) {
-        Donor.find()
-            .then(donors => res.json(donors))
+    async list(req, res) {
+        const donors = await Donor.find().sort('-createdAt').limit(8)
+        
+        return res.status(200).json(donors)
     }
 }
