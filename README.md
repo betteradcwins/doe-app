@@ -4,12 +4,12 @@
     * [x] Install Dependencies
     * [x] Setup Express App
     * [x] Setup Not Found and Error Middlewares
-* [] Model DB
+* [x] Model DB
   * What data will be store?
 <!-- * [x] Setup Mongoose Model(s) -->
-* [] POST /logs
+* [x] POST /donor
     * Create a new donator
-* [] GET /logs
+* [x] GET /donors
     * List all donators
 * [x] Setup Client
 * [x] Create Form to add a new donator
