@@ -1,9 +1,9 @@
 ### TODO
 
-* [] Setup Server
-    * [] Install Dependencies
-    * [] Setup Express App
-    * [] Setup Not Found and Error Middlewares
+* [x] Setup Server
+    * [x] Install Dependencies
+    * [x] Setup Express App
+    * [x] Setup Not Found and Error Middlewares
 * [] Model DB
   * What data will be store?
 <!-- * [x] Setup Mongoose Model(s) -->
