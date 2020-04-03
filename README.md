@@ -3,6 +3,8 @@
 Aplicação tem diferenças da desenvolvida pela rockseat, como o banco de dados e a forma de manipulação da DOM.
 A aplicação consiste de um formulário para cadastro de doares de sangue e uma listagem dos últimos cadastrados.
 
+![Screenshot](https://i.imgur.com/lJZhR2e.png?1)
+
 ## Para executar a aplicação
 
 git clone https://github.com/betteradcwins/doe-app.git
